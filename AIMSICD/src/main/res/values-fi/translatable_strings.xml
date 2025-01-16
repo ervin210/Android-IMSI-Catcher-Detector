@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="device_info">Tietoja puhelimesta/SIM-kortista</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="device_info">Tietoja puhelimesta/SIM-kortista</string>
     <string name="tracking">Seuranta</string>
     <string name="quit">Poistu</string>
     <string name="text_ok">OK</string>
@@ -8,10 +9,8 @@
     <string name="db_viewer">Tietokantanäkymä</string>
     <string name="text_agree">Hyväksyn</string>
     <string name="text_disagree">En hyväksy</string>
-
     <string name="disclaimer_title">VASTUUVAPAUSLAUSEKE</string>
     <string name="disclaimer"/>
-
     <string name="toggle_attack_detection">Hyökkäyksentunnistin</string>
     <string name="toggle_cell_tracking"/>
     <string name="clear_database">Tyhjennä tietokanta</string>
@@ -23,9 +22,7 @@ Oletko varma?</string>
     <string name="debugging">Debuggaus</string>
     <string name="no_network_connection_title">Ei internetyhteyttä</string>
     <string name="no_network_connection_message"/>
-
     <string name="get_opencellid">Lataa BTS-data</string>
-
     <string name="device_info_title">Laitetiedot</string>
     <string name="sim_info_title">SIM-tiedot</string>
     <string name="network_info">Verkkoyhteyden tiedot</string>
@@ -54,9 +51,7 @@ Oletko varma?</string>
     <string name="drawer_open"/>
     <string name="drawer_close"/>
     <string name="network_psc">PSC:</string>
-
     <string name="upload_bts">Lähetä BTS-data</string>
-
     <string name="about_aimsicd">Tietoa AIMSICD:sta</string>
     <string name="app_version">Versio: %s</string>
     <string name="buildnumber">Versiotarkenne: %s</string>
@@ -77,14 +72,11 @@ Oletko varma?</string>
     <string name="status_medium_about_desc"/>
     <string name="status_skull_about_desc"/>
     <string name="about_desc_icon_title"/>
-
     <string name="network_netid">Verkkotunnus:</string>
     <string name="network_sysid">Järjestelmätunnus:</string>
     <string name="network_baseid"/>
-
     <string name="location_error_title">Sijaintipalvelut pois käytöstä</string>
     <string name="location_error_message">Et voi seurata GPS-dataa ottamatta paikannusta käyttöön. Otetaanko paikannus käyttöön?</string>
-
     <string name="pref_enable_gps_title">GPS-asetukset</string>
     <string name="pref_enable_gps_summary"/>
     <string name="pref_system_title">Järjestelmäasetukset</string>
@@ -113,21 +105,18 @@ Nyt valittu: %s</string>
     <string name="pref_enable_cell_monitoring_summ"/>
     <string name="pref_request_ocid_key"/>
     <string name="pref_ocid_requestkey_summary"/>
-
     <string name="pref_map_title">Karttanäkymän asetukset</string>
     <string name="pref_map_type_title">Kartan tyyppi</string>
     <string name="pref_map_type_summ"/>
-    
-    <string name="cell_id_label">"CID: "</string>
-    <string name="lac_label">"LAC: "</string>
-    <string name="mcc_label">"MCC: "</string>
-    <string name="mnc_label">"MNC: "</string>
-    <string name="pc_label">"PC: "</string>
-    <string name="samples_label">"Näytteet: "</string>
+    <string name="cell_id_label">CID:</string>
+    <string name="lac_label">LAC:</string>
+    <string name="mcc_label">MCC:</string>
+    <string name="mnc_label">MNC:</string>
+    <string name="pc_label">PC:</string>
+    <string name="samples_label">Näytteet:</string>
     <string name="open_cell_id_label">OpenCellID-data</string>
     <string name="lat_label">"Leveys: "</string>
     <string name="lng_label">"Pituus: "</string>
-
     <string name="table_names_prompt">Valitse taulu</string>
     <string name="at_command_title"/>
     <string name="response_label">Vastaus:</string>
@@ -138,11 +127,9 @@ Nyt valittu: %s</string>
     <string name="timeout_spinner_title">Aikakatkaisu:</string>
     <string name="timeout_spinner_prompt">Valitse aikakatkaisu</string>
     <string name="command_hint"/>
-
     <string name="sms_title">Hiljainen tekstiviesti havaittu</string>
     <string name="sms_message"/>
     <string name="table_contains_no_data">Taulussa ei ole näytettävää dataa.</string>
-
     <string name="title_ocid_key">OpenCellID API-avain</string>
-    <string name="message_request_api_key"></string>
-    </resources>
+    <string name="message_request_api_key"/>
+</resources>
